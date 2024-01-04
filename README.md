@@ -24,6 +24,7 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 
 sudo mv /tmp/eksctl /usr/local/bin
 
+
 eksctl version
 Install kubectl command maxium one version less than EKS version.
 curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.24.10/2023-01-30/bin/linux/amd64/kubectl
